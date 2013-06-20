@@ -21,6 +21,19 @@
 		574D1FD917543B02000DD2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574D1FBA17543B02000DD2F5 /* Foundation.framework */; };
 		574D1FE117543B02000DD2F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 574D1FDF17543B02000DD2F5 /* InfoPlist.strings */; };
 		574D1FE417543B02000DD2F5 /* MapPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D1FE317543B02000DD2F5 /* MapPracticeTests.m */; };
+		574D1FEE17543FA7000DD2F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574D1FED17543FA7000DD2F5 /* CoreLocation.framework */; };
+		574D1FF017543FB2000DD2F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574D1FEF17543FB2000DD2F5 /* MapKit.framework */; };
+		574D1FF317544009000DD2F5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D1FF217544009000DD2F5 /* MapViewController.m */; };
+		575116BC1771581100A3F34F /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575116BB1771581100A3F34F /* DataTableViewController.m */; };
+		5751706117728D2600418162 /* StartAnnotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5751706017728D2600418162 /* StartAnnotion.m */; };
+		5751706417728D3700418162 /* StopAnnotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5751706317728D3700418162 /* StopAnnotion.m */; };
+		57582248175C404A0062570F /* DataShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57582247175C404A0062570F /* DataShowViewController.m */; };
+		575A8D9E175ED17100DD09B2 /* MapDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 575A8D9C175ED17100DD09B2 /* MapDataModel.xcdatamodeld */; };
+		575A8DA1175ED1D600DD09B2 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575A8DA0175ED1D600DD09B2 /* Coordinate.m */; };
+		575A8DA3175EEBB400DD09B2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575A8DA2175EEBB400DD09B2 /* CoreData.framework */; };
+		575CAB721755CA1000FAFF3E /* CrumbPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CAB711755CA1000FAFF3E /* CrumbPath.m */; };
+		575CAB751755D89A00FAFF3E /* CrumpPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CAB741755D89A00FAFF3E /* CrumpPathView.m */; };
+		57B98EC417702344000B65B5 /* RoutingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B98EC317702344000B65B5 /* RoutingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,28 @@
 		574D1FE017543B02000DD2F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		574D1FE217543B02000DD2F5 /* MapPracticeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPracticeTests.h; sourceTree = "<group>"; };
 		574D1FE317543B02000DD2F5 /* MapPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPracticeTests.m; sourceTree = "<group>"; };
+		574D1FED17543FA7000DD2F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		574D1FEF17543FB2000DD2F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		574D1FF117544009000DD2F5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		574D1FF217544009000DD2F5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		575116BA1771581100A3F34F /* DataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataTableViewController.h; path = ../DataTableViewController.h; sourceTree = "<group>"; };
+		575116BB1771581100A3F34F /* DataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataTableViewController.m; path = ../DataTableViewController.m; sourceTree = "<group>"; };
+		5751705F17728D2600418162 /* StartAnnotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartAnnotion.h; sourceTree = "<group>"; };
+		5751706017728D2600418162 /* StartAnnotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartAnnotion.m; sourceTree = "<group>"; };
+		5751706217728D3700418162 /* StopAnnotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopAnnotion.h; sourceTree = "<group>"; };
+		5751706317728D3700418162 /* StopAnnotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopAnnotion.m; sourceTree = "<group>"; };
+		57582246175C404A0062570F /* DataShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataShowViewController.h; path = ../DataShowViewController.h; sourceTree = "<group>"; };
+		57582247175C404A0062570F /* DataShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataShowViewController.m; path = ../DataShowViewController.m; sourceTree = "<group>"; };
+		575A8D9D175ED17100DD09B2 /* MapDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapDataModel.xcdatamodel; sourceTree = "<group>"; };
+		575A8D9F175ED1D600DD09B2 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		575A8DA0175ED1D600DD09B2 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		575A8DA2175EEBB400DD09B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		575CAB701755CA1000FAFF3E /* CrumbPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbPath.h; sourceTree = "<group>"; };
+		575CAB711755CA1000FAFF3E /* CrumbPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbPath.m; sourceTree = "<group>"; };
+		575CAB731755D89A00FAFF3E /* CrumpPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumpPathView.h; sourceTree = "<group>"; };
+		575CAB741755D89A00FAFF3E /* CrumpPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumpPathView.m; sourceTree = "<group>"; };
+		57B98EC217702344000B65B5 /* RoutingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutingViewController.h; path = ../RoutingViewController.h; sourceTree = "<group>"; };
+		57B98EC317702344000B65B5 /* RoutingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutingViewController.m; path = ../RoutingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575A8DA3175EEBB400DD09B2 /* CoreData.framework in Frameworks */,
+				574D1FF017543FB2000DD2F5 /* MapKit.framework in Frameworks */,
+				574D1FEE17543FA7000DD2F5 /* CoreLocation.framework in Frameworks */,
 				574D1FB917543B02000DD2F5 /* UIKit.framework in Frameworks */,
 				574D1FBB17543B02000DD2F5 /* Foundation.framework in Frameworks */,
 				574D1FBD17543B02000DD2F5 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +120,8 @@
 		574D1FAC17543B02000DD2F5 = {
 			isa = PBXGroup;
 			children = (
+				5751706617729AE300418162 /* Database */,
+				5751706517729ACF00418162 /* Annotation */,
 				574D1FBE17543B02000DD2F5 /* MapPractice */,
 				574D1FDC17543B02000DD2F5 /* MapPracticeTests */,
 				574D1FB717543B02000DD2F5 /* Frameworks */,
@@ -101,6 +141,9 @@
 		574D1FB717543B02000DD2F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				575A8DA2175EEBB400DD09B2 /* CoreData.framework */,
+				574D1FEF17543FB2000DD2F5 /* MapKit.framework */,
+				574D1FED17543FA7000DD2F5 /* CoreLocation.framework */,
 				574D1FB817543B02000DD2F5 /* UIKit.framework */,
 				574D1FBA17543B02000DD2F5 /* Foundation.framework */,
 				574D1FBC17543B02000DD2F5 /* CoreGraphics.framework */,
@@ -112,6 +155,18 @@
 		574D1FBE17543B02000DD2F5 /* MapPractice */ = {
 			isa = PBXGroup;
 			children = (
+				575116BA1771581100A3F34F /* DataTableViewController.h */,
+				575116BB1771581100A3F34F /* DataTableViewController.m */,
+				57B98EC217702344000B65B5 /* RoutingViewController.h */,
+				57B98EC317702344000B65B5 /* RoutingViewController.m */,
+				57582246175C404A0062570F /* DataShowViewController.h */,
+				57582247175C404A0062570F /* DataShowViewController.m */,
+				575CAB731755D89A00FAFF3E /* CrumpPathView.h */,
+				575CAB741755D89A00FAFF3E /* CrumpPathView.m */,
+				575CAB701755CA1000FAFF3E /* CrumbPath.h */,
+				575CAB711755CA1000FAFF3E /* CrumbPath.m */,
+				574D1FF117544009000DD2F5 /* MapViewController.h */,
+				574D1FF217544009000DD2F5 /* MapViewController.m */,
 				574D1FC717543B02000DD2F5 /* AppDelegate.h */,
 				574D1FC817543B02000DD2F5 /* AppDelegate.m */,
 				574D1FBF17543B02000DD2F5 /* Supporting Files */,
@@ -150,6 +205,27 @@
 				574D1FDF17543B02000DD2F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5751706517729ACF00418162 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				5751706217728D3700418162 /* StopAnnotion.h */,
+				5751706317728D3700418162 /* StopAnnotion.m */,
+				5751705F17728D2600418162 /* StartAnnotion.h */,
+				5751706017728D2600418162 /* StartAnnotion.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		5751706617729AE300418162 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				575A8D9C175ED17100DD09B2 /* MapDataModel.xcdatamodeld */,
+				575A8D9F175ED1D600DD09B2 /* Coordinate.h */,
+				575A8DA0175ED1D600DD09B2 /* Coordinate.m */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +339,16 @@
 			files = (
 				574D1FC517543B02000DD2F5 /* main.m in Sources */,
 				574D1FC917543B02000DD2F5 /* AppDelegate.m in Sources */,
+				574D1FF317544009000DD2F5 /* MapViewController.m in Sources */,
+				575CAB721755CA1000FAFF3E /* CrumbPath.m in Sources */,
+				575CAB751755D89A00FAFF3E /* CrumpPathView.m in Sources */,
+				57582248175C404A0062570F /* DataShowViewController.m in Sources */,
+				575A8D9E175ED17100DD09B2 /* MapDataModel.xcdatamodeld in Sources */,
+				575A8DA1175ED1D600DD09B2 /* Coordinate.m in Sources */,
+				57B98EC417702344000B65B5 /* RoutingViewController.m in Sources */,
+				575116BC1771581100A3F34F /* DataTableViewController.m in Sources */,
+				5751706117728D2600418162 /* StartAnnotion.m in Sources */,
+				5751706417728D3700418162 /* StopAnnotion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +452,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapPractice/MapPractice-Prefix.pch";
 				INFOPLIST_FILE = "MapPractice/MapPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +464,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapPractice/MapPractice-Prefix.pch";
 				INFOPLIST_FILE = "MapPractice/MapPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -435,6 +523,7 @@
 				574D1FE917543B02000DD2F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		574D1FEA17543B02000DD2F5 /* Build configuration list for PBXNativeTarget "MapPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -443,8 +532,22 @@
 				574D1FEC17543B02000DD2F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		575A8D9C175ED17100DD09B2 /* MapDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				575A8D9D175ED17100DD09B2 /* MapDataModel.xcdatamodel */,
+			);
+			currentVersion = 575A8D9D175ED17100DD09B2 /* MapDataModel.xcdatamodel */;
+			path = MapDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 574D1FAD17543B02000DD2F5 /* Project object */;
 }

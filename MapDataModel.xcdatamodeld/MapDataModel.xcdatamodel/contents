@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Coordinate" representedClassName="Coordinate" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="lontitude" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Coordinate" positionX="-63" positionY="-27" width="128" height="90"/>
+    </elements>
+</model>
